@@ -81,18 +81,3 @@ train_set = m.get_dataset(crop_resize_folder)
 x = next(iter(DataLoader(train_set, batch_size=64)))[0]
 m.display_data(x, 8, "Loaded img")
 
-
-# %%
-args = m.DCGANArgs(
-    latent_dim_size=100,
-    hidden_channels=[128, 256, 512],
-    dataset_path=crop_resize_folder,
-    batch_size=8,
-    epochs=3,
-    seconds_between_eval=60,
-)
-
-trainer = m.DCGANTrainer(args)
-trainer.train()
-
-# %%
