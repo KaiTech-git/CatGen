@@ -1,0 +1,9 @@
+# ignore all directories
+data/*
+__pycache__/
+
+
+# ignoore files with specific format
+.env
+.DS_Store
+!data/.gitkeep
