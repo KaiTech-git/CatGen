@@ -1,4 +1,4 @@
-![MIDJOURNEY CAT](notebooks/img/MIDJOURNEY.png)
+![MIDJOURNEY CAT](notebooks/img/MIDJOURNEY1.png)
 
 
 # CatGen - DCGAN model
