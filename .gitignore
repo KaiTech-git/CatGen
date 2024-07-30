@@ -1,12 +1,12 @@
 # ignore all directories
 data/*
 __pycache__/
+.vscode/
 
 
 # ignoore files with specific format
 .env
 .DS_Store
 !data/.gitkeep
-!data/data_no_background/.gitkeep
-!data/data_with_background/.gitkeep
+
 
